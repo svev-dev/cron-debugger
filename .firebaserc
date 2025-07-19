@@ -1,0 +1,15 @@
+{
+  "projects": {
+    "default": "svev-dev"
+  },
+  "targets": {
+    "svev-dev": {
+      "hosting": {
+        "svev-cron": [
+          "svev-cron"
+        ]
+      }
+    }
+  },
+  "etags": {}
+}
