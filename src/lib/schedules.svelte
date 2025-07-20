@@ -115,7 +115,6 @@
     }
     .card-table-value {
         padding: 0.75rem 1rem;
-        font-family: monospace;
         color: #334155;
     }
 </style>
