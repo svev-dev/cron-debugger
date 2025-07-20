@@ -53,7 +53,7 @@
                     </tr>
                 </thead>
                 <tbody>
-                    {#each schedules as schedule, idx}
+                    {#each schedules as schedule, idx (schedule)}
                         <tr class="card-table-row">
                             <td class="card-table-index">{idx + 1}.</td>
                             <td class="card-table-value">{schedule}</td>

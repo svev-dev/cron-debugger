@@ -5,6 +5,7 @@
     import Card from './Card.svelte';
     import AsteriskIcon from './icons/AsteriskIcon.svelte';
     import ShareIcon from './icons/ShareIcon.svelte';
+    import type { Snippet } from 'svelte';
 
     interface Props {
         expression: string;
@@ -49,7 +50,13 @@
         expression = newExpression;
     });
 
-    const fields: Record<Field, any> = $derived({
+    type FieldMetadata = {
+        label: string;
+        tooltip: Snippet;
+        error: boolean;
+    };
+
+    const fields: Record<Field, FieldMetadata> = $derived({
         [Field.Minute]: {
             label: 'Minute',
             tooltip: minuteTooltip,
@@ -182,7 +189,7 @@
 
 <Card title="Expression Builder" Icon={AsteriskIcon} actions={[shareButton, copyButton]}>
     <div class="input-wrapper">
-        {#each Object.values(Field) as field, idx}
+        {#each Object.values(Field) as field, idx (field)}
             <Input
                 bind:this={inputComponents[idx]}
                 id={field}
