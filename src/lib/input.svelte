@@ -1,6 +1,6 @@
 <script lang="ts">
     import type { Snippet } from 'svelte';
-    import HelpIcon from './icons/HelpIcon.svelte';
+    import HelpIcon from './icons/help-icon.svelte';
 
     interface Props {
         id: string;

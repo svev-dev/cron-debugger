@@ -1,5 +1,5 @@
 <script lang="ts">
-    import ExternalLinkIcon from './icons/ExternalLinkIcon.svelte';
+    import ExternalLinkIcon from './icons/external-link-icon.svelte';
 
     interface Props {
         href: string;

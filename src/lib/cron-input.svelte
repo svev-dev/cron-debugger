@@ -1,10 +1,10 @@
 <script lang="ts">
     import { Field, parseCronExpression } from './cron-utils';
-    import Input from './Input.svelte';
-    import CopyButton from './CopyButton.svelte';
-    import Card from './Card.svelte';
-    import AsteriskIcon from './icons/AsteriskIcon.svelte';
-    import ShareIcon from './icons/ShareIcon.svelte';
+    import Input from './input.svelte';
+    import CopyButton from './copy-button.svelte';
+    import Card from './card.svelte';
+    import AsteriskIcon from './icons/asterisk-icon.svelte';
+    import ShareIcon from './icons/share-icon.svelte';
     import type { Snippet } from 'svelte';
 
     interface Props {

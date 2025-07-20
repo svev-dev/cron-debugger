@@ -1,7 +1,7 @@
 <script lang="ts">
-    import Card from './Card.svelte';
+    import Card from './card.svelte';
     import { getHumanReadableString } from './cron-utils';
-    import GraduationIcon from './icons/GraduationIcon.svelte';
+    import GraduationIcon from './icons/graduation-icon.svelte';
 
     interface Props {
         expression: string;
