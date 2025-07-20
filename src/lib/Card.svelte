@@ -20,7 +20,7 @@
             <p class="title">{title}</p>
         </div>
         <div class="right">
-            {#each actions ?? [] as action}
+            {#each actions ?? [] as action, idx (idx)}
                 {@render action()}
             {/each}
         </div>

@@ -1,5 +1,5 @@
 <script lang="ts">
-    import type { Component, Snippet } from 'svelte';
+    import type { Component } from 'svelte';
     import CopyIcon from './icons/CopyIcon.svelte';
     interface Props {
         value: () => string;
