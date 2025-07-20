@@ -1,7 +1,7 @@
 <script lang="ts">
-    import Card from './Card.svelte';
+    import Card from './card.svelte';
     import { getNextNSchedules } from './cron-utils';
-    import CalendarIcon from './icons/CalendarIcon.svelte';
+    import CalendarIcon from './icons/calendar-icon.svelte';
 
     const MONTHS = [
         'Jan',

@@ -1,6 +1,6 @@
 <script lang="ts">
     import type { Component } from 'svelte';
-    import CopyIcon from './icons/CopyIcon.svelte';
+    import CopyIcon from './icons/copy-icon.svelte';
     interface Props {
         value: () => string;
         text?: string;
