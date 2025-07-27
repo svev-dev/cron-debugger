@@ -1,23 +1,12 @@
 <div align="center">
-  <table>
-    <tr>
-      <td align="center">
-        <img src="./static/logo.svg" alt="Cron Debugger Logo" width="200" height="100">
-      </td>
-      <td align="left" style="padding-left: 20px;">
-        <h1>Cron Debugger 🔧</h1>
-        <p><em>Visualize and understand your cron schedules with this interactive cron expression debugger.</em></p>
-        <p>
-          <a href="https://github.com/svev-dev/cron-debugger/actions/workflows/cd.yml">
-            <img src="https://github.com/svev-dev/cron-debugger/actions/workflows/cd.yml/badge.svg" alt="CD">
-          </a>
-          <a href="https://opensource.org/licenses/MIT">
-            <img src="https://img.shields.io/badge/License-MIT-yellow.svg" alt="License: MIT">
-          </a>
-        </p>
-      </td>
-    </tr>
-  </table>
+  <img src="./static/logo.svg" alt="Cron Debugger Logo" width="200" height="100">
+  
+  # Cron Debugger 🔧
+  
+  *Visualize and understand your cron schedules with this interactive cron expression debugger.*
+  
+  [![CD](https://github.com/svev-dev/cron-debugger/actions/workflows/cd.yml/badge.svg)](https://github.com/svev-dev/cron-debugger/actions/workflows/cd.yml)
+  [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 </div>
 
 A modern, interactive web tool that helps developers debug, visualize, and understand cron expressions. Built with SvelteKit.
